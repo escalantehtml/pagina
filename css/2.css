@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Sen&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Aileron Regular', sans-serif;
+    margin: 0;
+    background: -webkit-gradient(to right, #434343 0%, black 100%);
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(100deg,rgb(0, 0, 0, 0.7),rgb(0, 0, 0, 0.7)),url(../img/clinicaodotologica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+h1{font-size: 2.8em;}
+h2{ font-size: 1.7em;}
+h3{ font-size: 1.5em;}
+h4{font-size: 1em;}
+h5{font-size: 1.2em; color: #D9D9D9;}
+
+p{font-size: 1em;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sen', sans-serif;}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid #505152;
+    color: rgba(22, 21, 21, 0.836);
+    background-color: rgb(248, 249, 247);
+}
+
+ .contenedor {
+    max-width: 1400px;
+    margin: auto; 
+ }
+
+header {
+    background-color:#D9D9D9 ;
+    background-size: cover;
+    background-position: center;
+ }
+
+.logo-text {
+    margin: 0;
+    padding: 0.7px 26px;
+    font-weight: bold;
+    color: rgb(0.2, 0.2, 0.2);
+    font-size: 2.3em;
+}
+
+.logo-text {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.logo-text:hover {
+    transform: scale(1.4);
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 2px;
+
+}
+
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0.9, 0.9, 0.9);
+}
+
+header a:hover {
+    color:rgba(18, 10, 63, 0.616);
+
+}
+
+.form {
+    position: relative;
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    background-color: #E4E4E1;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+.form_contenedor {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form_titulo {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+    outline: none;
+    color: #000;
+}
+
+.form_txt {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    border: 1px solid #252524;
+    border-radius: 0.2em;
+}
+
+.form-text {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form_cta {
+    font-family: inherit;
+    font-size: 1rem;
+    background: -webkit-gradient(to right, #434343 0%, black 100%);
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    color:rgb(255, 255, 254);
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 900;
+}
+.iconos {
+    text-align: center;
+    margin: 0 5px;
+}
+.iconos p {
+    font-size: 1.1em;
+    color: #252524;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.iconos img {
+    margin: 0 5px;
+}
+a img {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+a:hover img {
+    transform: scale(1.4);
+}
+
+#footer {
+    background-color: #D9D9D9;
+    margin: 0 auto;
+}
+#footer .container{
+    text-align: center;
+}
+
+#footer h2 {
+    font-size:1.6em;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #000;
+
+}
+
+#footer .iconos {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#footer button{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 10px;
+   
+}
+
+#footer .footer-contactos{
+    margin-bottom: 50px;
+}
+.footer-contactos form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+#footer button{
+    color: rgb(248, 249, 247);
+    background-color:rgba(14, 13, 13, 0.925); 
+    border-radius: 20px;
+}
+
+#footer button:hover{
+    background-color: rgb(248, 249, 247);
+    color: black;
+    border:1px solid rgb(0, 0 , 0, 0.9);
+}
+
+#footer p {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    color: #000;
+}
+    #footer h2 {
+        font-size: 4em;
+    
+    }
+    #footer .iconos img {
+        width: 30px;
+        height: 30px;
+        margin:5px
+        
+    }
